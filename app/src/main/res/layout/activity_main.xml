@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/css">
+
+    <Button
+        android:id="@+id/btnpgl"
+        android:text="Cek Pulsa Telkomsel"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/css"
+        android:onClick="panggil"/>
+
+    <Button
+        android:id="@+id/btnbuka"
+        android:text="Buka Browser"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnpgl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/css"
+        android:onClick="buka"/>
+
+    <Button
+        android:id="@+id/btnbukayt"
+        android:text="Buka YouTube"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnbuka"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/css"
+        android:onClick="bukayt"/>
+
+    <Button
+        android:id="@+id/btninfo"
+        android:text="Tentang Aplikasi"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnbukayt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/css"
+        android:onClick="tentang"/>
+
+    <Button
+        android:id="@+id/btninfosy"
+        android:text="Tentang Saya"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btninfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/css"
+        android:onClick="tentangsaya"/>
+
+</RelativeLayout>
